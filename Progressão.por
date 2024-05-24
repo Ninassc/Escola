@@ -5,18 +5,23 @@ programa
 	{
 		real n1,n2,n3,r,n4
 		
-	escreva("Digite três números reais respectivamente:\n")leia(n1,n2,n3)
+	escreva("Digite três números reais respectivamente:\n")
+	leia(n1,n2,n3)
+
 	r = n2 - n1
 
 	se(n1 == n2 e n2 == n3){
 	escreva("Formam uma progressao.\nProximo termo: ",n1)
-	}senao se(n1 + r == n2 e n2 + r == n3){
+	}
+	senao se(n1 + r == n2 e n2 + r == n3){
 	n4 = n3 + r
 	escreva("Formam uma progressao.\nProximo termo: ",n4)
-	}senao se(n1 + r == n2 e n2 + r == n3){
+	}
+	senao se(n1 + r == n2 e n2 + r == n3){
 	n4 = n3 + r
 	escreva("Formam uma progressao.\nProximo termo: ",n4)
-	}senao{
+	}
+	senao{
 	escreva("Não formam uma progressão.")
 	}
 	}
